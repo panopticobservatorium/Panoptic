@@ -1,6 +1,68 @@
+/* Page basics */
 body {
-  font-family: system-ui, sans-serif;
-  max-width: 650px;
-  margin: 60px auto;
-  line-height: 1.6;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f8f8f6;
+  color: #222;
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  line-height: 1.65;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+/* List layout */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Thumbnail */
+.thumb-link {
+  display: block;
+}
+
+.thumbnail {
+  max-width: 80px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Text area */
+.post-text {
+  max-width: 600px;
+}
+
+.post-title {
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.post-title:hover {
+  text-decoration: underline;
+}
+
+.preview {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
 }
