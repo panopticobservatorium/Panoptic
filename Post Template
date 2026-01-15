@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post title</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+  <a href="../index.html">← Home</a>
+</header>
+
+<article class="post">
+
+  <h1>Post title</h1>
+  <p class="date">14 January 2026</p>
+
+  <!-- Optional: hero image -->
+  <figure>
+    <img src="../images/mountain.jpeg" alt="Describe the image">
+    <figcaption>
+      Optional caption: location, time, conditions
+    </figcaption>
+  </figure>
+
+  <!-- Main text -->
+  <p>
+    Write your text here. Keep paragraphs short. Let the image breathe.
+  </p>
+
+  <p>
+    Add as many paragraphs as you like. No formatting tricks needed.
+  </p>
+
+  <!-- Optional: metadata block -->
+  <section class="meta">
+    <p><strong>Location:</strong> London, UK</p>
+    <p><strong>Time:</strong> 07:42</p>
+    <p><strong>Conditions:</strong> Fog, ~92% humidity</p>
+  </section>
+
+</article>
+
+</body>
+</html>
